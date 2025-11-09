@@ -1,5 +1,5 @@
 import { Target, Award, Users, TrendingUp } from 'lucide-react';
-import tradingSetup from '@/assets/trading-setup.jpg';
+import aboutPhoto from '@/assets/about-photo.jpg';
 
 const About = () => {
   const values = [
@@ -44,8 +44,8 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
           <div className="relative rounded-2xl overflow-hidden shadow-elegant border border-gold/20">
             <img
-              src={tradingSetup}
-              alt="Trading Setup"
+              src={aboutPhoto}
+              alt="Lionel Cameron - Trading Session"
               className="w-full h-full object-cover"
             />
           </div>

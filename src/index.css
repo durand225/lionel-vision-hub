@@ -38,9 +38,9 @@ All colors MUST be HSL.
 
     --radius: 0.75rem;
 
-    --gradient-start: 248 40% 14%;
-    --gradient-mid: 250 35% 20%;
-    --gradient-end: 248 14% 8%;
+    --gradient-start: 7 90% 10%;
+    --gradient-mid: 0 100% 27%;
+    --gradient-end: 7 90% 10%;
 
     --gold: 45 75% 52%;
     --gold-light: 45 80% 65%;
