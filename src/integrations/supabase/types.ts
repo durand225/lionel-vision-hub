@@ -334,6 +334,36 @@ export type Database = {
         }
         Relationships: []
       }
+      payments: {
+        Row: {
+          amount: number
+          created_at: string | null
+          id: string
+          metadata: Json | null
+          reference: string
+          status: string
+          user_email: string
+        }
+        Insert: {
+          amount: number
+          created_at?: string | null
+          id?: string
+          metadata?: Json | null
+          reference: string
+          status: string
+          user_email: string
+        }
+        Update: {
+          amount?: number
+          created_at?: string | null
+          id?: string
+          metadata?: Json | null
+          reference?: string
+          status?: string
+          user_email?: string
+        }
+        Relationships: []
+      }
       profiles: {
         Row: {
           created_at: string
