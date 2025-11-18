@@ -144,19 +144,29 @@ const Services = () => {
           <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
             Rejoignez l'Institution of Lionel Cameron et apprenez à trader comme les professionnels. Contactez-nous pour obtenir plus d'informations sur nos programmes.
           </p>
-          <Button
-            asChild
-            size="lg"
-            className="bg-gold hover:bg-gold-light text-primary-foreground font-semibold text-lg px-12 shadow-gold"
-          >
-            <a
-              href="https://wa.me/+2250777519477"
-              target="_blank"
-              rel="noopener noreferrer"
+          <div className="flex gap-4 justify-center">
+            <Button
+              size="lg"
+              className="bg-gold hover:bg-gold-light text-primary-foreground font-semibold text-lg px-12 shadow-gold"
+              onClick={() => window.location.href = '/payment'}
             >
-              Discuter sur WhatsApp
-            </a>
-          </Button>
+              Réserver Maintenant
+            </Button>
+            <Button
+              asChild
+              size="lg"
+              variant="outline"
+              className="border-gold/50 text-foreground hover:bg-gold/10 font-semibold text-lg px-12"
+            >
+              <a
+                href="https://wa.me/+2250777519477"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Discuter sur WhatsApp
+              </a>
+            </Button>
+          </div>
         </div>
       </div>
     </section>
